@@ -1,0 +1,32 @@
+{% load static %}<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Projeto{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header class="topo">
+    <a class="marca" href="/">Projeto</a>
+    <nav>{% block nav %}{% endblock %}</nav>
+  </header>
+
+  <main class="conteudo">
+    {% if messages %}
+      <ul class="mensagens">
+        {% for message in messages %}<li class="mensagem {{ message.tags }}">{{ message }}</li>{% endfor %}
+      </ul>
+    {% endif %}
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="rodape">
+    <small>&copy; <span data-ano-atual></span></small>
+  </footer>
+
+  <script src="{% static 'js/app.js' %}" defer></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

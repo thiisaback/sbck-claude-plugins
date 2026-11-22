@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Ambiente virtual
+.venv/
+.venv-antigo-*/
+venv/
+
+# Variáveis de ambiente (segredos)
+.env
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+*.log
+
+# Editores / sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code (configurações locais)
+.claude/settings.local.json

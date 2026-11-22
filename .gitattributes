@@ -1,0 +1,8 @@
+# Sempre LF no repositório e no checkout (mesmo com core.autocrlf=true no Windows):
+# os templates das skills são copiados como estão para os projetos gerados.
+* text=auto eol=lf
+
+*.zip binary
+*.png binary
+*.jpg binary
+*.ico binary

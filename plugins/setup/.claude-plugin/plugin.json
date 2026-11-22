@@ -1,0 +1,9 @@
+{
+  "name": "setup",
+  "version": "1.0.0",
+  "description": "Setup inicial de projetos. Skill django (/setup:django): projeto Django com .venv, PostgreSQL ou SQLite, git e frontend em HTML/CSS/JS puros.",
+  "author": {
+    "name": "Thiago Saback Gurgita"
+  },
+  "keywords": ["setup", "django", "postgresql", "pt-br"]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "sbck-claude-plugins",
+  "metadata": {
+    "description": "Skills e agents para o Claude Code, em português do Brasil."
+  },
+  "owner": {
+    "name": "Thiago Saback Gurgita"
+  },
+  "plugins": [
+    {
+      "name": "setup",
+      "source": "./plugins/setup",
+      "description": "Setup inicial de projetos. Skill django (/setup:django): projeto Django com .venv, PostgreSQL ou SQLite, git e frontend em HTML/CSS/JS puros."
+    }
+  ]
+}

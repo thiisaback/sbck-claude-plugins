@@ -1,0 +1,20 @@
+# Zips gerados por scripts/build.py
+dist/
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Pasta para testar as skills (projetos gerados, .venv, .env...)
+sandbox/
+
+# Editores / sistema operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Claude Code (configurações locais)
+.claude/settings.local.json
+CLAUDE.local.md
